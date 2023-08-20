@@ -12,5 +12,6 @@ function signOut() {
     if (check) {
         localStorage.setItem("userlogin", JSON.stringify(""))
         window.location.href = "../../login-logup/loginpage/login.html"
+        
     }
 }
